@@ -45,7 +45,49 @@ body {
   left: 10px;
   top: 10px;
   font-size: 1.4vh;
-  color: rgba(255, 255, 255, 0.158); 
+  color: rgba(255, 255, 255, 0.158);
+}
+
+li,
+a {
+  position: relative;
+  top: 1%;
+  color: rgba(255, 255, 255, 0.158);
+  text-decoration: none;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#main {
+  position: absolute;
+}
+
+#main {
+}
+
+#arata {
+  position: absolute;
+  left: 2.3%;
+  transform: translate(-2.3%);
+}
+
+#arata a {
+  color: rgba(248, 8, 248, 0.952);
+}
+
+a {
+  transition: 0.5s;
+}
+
+#main:hover a {
+  color: rgba(165, 7, 165, 0.952);
 }
 
 /* cute */
