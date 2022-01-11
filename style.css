@@ -40,6 +40,14 @@ body {
   background-color: rgba(248, 8, 248, 0.952);
 }
 
+#arata {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 1.4vh;
+  color: rgba(255, 255, 255, 0.158); 
+}
+
 /* cute */
 
 #cute {
