@@ -67,14 +67,14 @@ a {
 
 #main {
   position: absolute;
-}
-
-#main {
+  font-size: 0.9rem;
 }
 
 #arata {
   position: absolute;
-  left: 2.3%;
+  left: 2.5%;
+  font-size: 0.9rem;
+  top: 8px;
   transform: translate(-2.3%);
 }
 
