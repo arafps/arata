@@ -14,6 +14,7 @@ body {
   position: absolute;
   cursor: pointer;
   color: rgb(221, 219, 219);
+  font-size: 2rem;
   top: 50%;
   left: 50%;
   text-shadow: 0 0 0.6em rgba(255, 255, 255, 0.274);
@@ -38,14 +39,6 @@ body {
   height: 5px;
   border-radius: 40px;
   background-color: rgba(248, 8, 248, 0.952);
-}
-
-#arata {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  font-size: 1.4vh;
-  color: rgba(255, 255, 255, 0.158);
 }
 
 li,
@@ -105,4 +98,19 @@ a {
   left: 50%;
   font-size: 0.6rem;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 526px) {
+  .inProgress {
+    font-size: 1rem;
+  }
+  .nav_links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1746px) {
+  .nav_links {
+    display: none;
+  }
 }
