@@ -72,9 +72,9 @@ a {
 
 #arata {
   position: absolute;
-  left: 2.5%;
+  left: 2.2%;
   font-size: 0.9rem;
-  top: 8px;
+  top: 0.9vh;
   transform: translate(-2.3%);
 }
 
