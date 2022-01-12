@@ -58,6 +58,7 @@ a {
 
 .nav_links {
   list-style: none;
+  font-size: 1rem;
 }
 
 .nav_links li {
@@ -67,14 +68,11 @@ a {
 
 #main {
   position: absolute;
-  font-size: 0.9rem;
 }
 
 #arata {
   position: absolute;
-  left: 2.2%;
-  font-size: 0.9rem;
-  top: 0.9vh;
+  left: 2.6%;
   transform: translate(-2.3%);
 }
 
