@@ -66,6 +66,7 @@ a {
 #arata {
   position: absolute;
   left: 2.6%;
+  top: 0.9vh;
   transform: translate(-2.3%);
 }
 
