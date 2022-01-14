@@ -24,11 +24,11 @@ body {
 .inProgress::after {
   content: "";
   position: relative;
-  top: 1vh;
+  top: 0.7vh;
   display: block;
   width: 0%;
   height: 5px;
-  transition: all 1s ease-out 0.4s;
+  transition: all 0.7s ease-out;
   border-radius: 40px;
   background-color: rgba(112, 14, 192, 0.418);
 }
