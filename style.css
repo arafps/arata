@@ -63,15 +63,15 @@ a {
   position: absolute;
 }
 
+#arata a {
+  color: rgba(248, 8, 248, 0.952);
+}
+
 #arata {
   position: absolute;
   left: 2.6%;
   top: 0.9vh;
   transform: translate(-2.3%);
-}
-
-#arata a {
-  color: rgba(248, 8, 248, 0.952);
 }
 
 a {
