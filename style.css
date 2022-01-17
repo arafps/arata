@@ -10,6 +10,7 @@ body {
   user-select: none;
 }
 
+/* Front Text */
 .inProgress {
   position: absolute;
   cursor: pointer;
@@ -41,11 +42,19 @@ body {
   background-color: rgba(248, 8, 248, 0.952);
 }
 
+/* Nav-Bar */
+#main {
+  color: rgba(255, 255, 255, 0.158);
+  top: 1%;
+}
+
+#arata a {
+  color: rgba(255, 255, 255, 0.158);
+}
+
 li,
 a {
   position: relative;
-  top: 1%;
-  color: rgba(255, 255, 255, 0.158);
   text-decoration: none;
 }
 
@@ -82,8 +91,7 @@ a {
   color: rgba(165, 7, 165, 0.952);
 }
 
-/* cute */
-
+/* cute Pic + Text */
 #cute {
   position: absolute;
   top: 60%;
@@ -101,15 +109,72 @@ a {
   transform: translate(-50%, -50%);
 }
 
+/* Phone Front Text |  Fixed for Phone :D */
 @media screen and (max-width: 526px) {
   .inProgress {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
-  .nav_links {
-    display: none;
+  #cuteText {
+    top: 63.6%;
   }
 }
 
+/* Removing Button's From Page*/
+.fixed-nav {
+  display: none;
+}
+
+/* Removing Default Design */
+.ara-btn,
+.main-btn {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 2.2vh;
+  cursor: pointer;
+}
+
+/* Position everything */
+.ara-btn {
+  position: absolute;
+  top: 4%;
+  left: 33%;
+}
+.main-btn {
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+
+/* Adding Design */
+.main-btn {
+  width: 70px;
+  height: 30px;
+  color: rgba(202, 200, 200, 0.884);
+  background: rgba(248, 8, 248, 0.623);
+
+  border-radius: 3px;
+}
+
+.ara-btn {
+  width: 70px;
+  height: 30px;
+  color: rgba(128, 128, 128, 0.479);
+  background: #313131a8;
+  border-radius: 3px;
+}
+
+/* Adding Button's back To Page */
+@media screen and (max-width: 526px) {
+  .fixed-nav {
+    display: block;
+  }
+}
+
+/* Removed Nav-bar, cuz i only want the nav-bar 
+for full size. 
+But i will make it responsive
+*/
 @media screen and (max-width: 1746px) {
   .nav_links {
     display: none;
